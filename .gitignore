@@ -1,6 +1,5 @@
 #template
 template
 #node_modules
-*/node_modules/
-*/sample
-*/temp
+node_modules/
+temp
