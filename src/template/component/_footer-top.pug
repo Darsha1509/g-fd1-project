@@ -1,0 +1,18 @@
+mixin footerBlock(title, information)
+    .footer-text
+        .footer-text-title= title
+        .footer-text-inscription
+            -
+                information.forEach(function(item) {
+            div= item
+            -})
+
+.footer-top
+    .footer-logo
+        span= logo
+
+    -
+        footerBlocks.forEach(function(item) {
+    +footerBlock(item.title, item.text)         
+    -})
+            
