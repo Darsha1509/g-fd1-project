@@ -1,0 +1,33 @@
+$backgroundColor: rgba(0, 0, 0, 0.2)
+
+.menu 
+    height: 100%
+    display: flex
+    justify-content: space-around
+    align-items: center
+    width: calc(100% - 640px)
+    &-container
+        height: 100%
+        background-color: #000000
+        opacity: 0.2
+        flex-grow: 1
+        text-align: center
+        &__opened
+            height: 100%
+            background-color: $backgroundColor
+            opacity: 1
+            flex-grow: 1
+            text-align: center
+        &:hover
+            background-color: $backgroundColor
+            opacity: 1
+    &-item
+        color: #ffffff
+        font-family: ProximaNova
+        font-size: 13px
+        margin-top: 25px
+        margin-right: 20px
+        line-height: 65px
+        &:hover
+        cursor: pointer
+
