@@ -1,3 +1,138 @@
 {
-    "test": "Some other string"
+    "logo": "MR Travel",
+    "menu": [
+        {
+            "title": "Accomodation",
+            "href": "#location"
+        },
+        {
+            "title": "Events",
+            "href": "#news"
+        },
+        {
+            "title": "Destinations",
+            "href": "#destination"
+        },
+        {
+            "title": "Trip Guides",
+            "href": "#story"
+        },
+        {
+            "title": "About Us",
+            "href": "#about"
+        }
+    ],
+    "mainText": {
+        "firstString": "Welcome to MR travel",
+        "secondString": "play and explorer"
+    },
+    "destinationsHint": [
+        "Select Destination",
+        "From",
+        "To",
+        "Guests"
+    ],
+    "cities": [
+        "Bangkok",
+        "London",
+        "Paris",
+        "Dubai",
+        "Tokio",
+        "New York",
+        "Berlin",
+        "Dresden",
+        "Amsterdam",
+        "Viena",
+        "Krakow",
+        "Warsawa",
+        "Lvov",
+        "St.Persburg",
+        "Moskow",
+        "Rome"
+    ],
+    "locationTitle" : "Find a place to rest",
+    "locationTextOne" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis id libero",
+    "locationTextTwo" : "ut finibus. Nullam et tortor aliquam",
+    "locationButtonsName": [
+        "Near places",
+        "Popular",
+        "Cheep"
+    ],
+    "hotels": [
+        {
+            "imageSrc": "/assets/images/Vacation-Home.png",
+            "nameFirst" : "Penginapan Villa Pratama",
+            "nameLast" : "Nagrak, Sukabumi",
+            "rang" : "8 Orang",
+            "price" : "$550.00 Semalan"
+        },
+        {
+            "imageSrc": "/assets/images/NOLI-02.png",
+            "nameFirst" : "Saung Ngampar Tiada Tara",
+            "nameLast" : "Cikopak, Sukabumi",
+            "rang" : "12 Orang",
+            "price" : "$400.00 Semalan"
+        },
+        {
+            "imageSrc": "/assets/images/piscina-hotel-intertur-hawaii-ibiza.png",
+            "nameFirst" : "Hotel Samudera Aksara",
+            "nameLast" : "Ciangsana, Sukabumi",
+            "rang" : "2 Orang / Ruangan",
+            "price" : "$200.00 Semalan"
+        }
+    ],
+    "faq": [
+        "Cara Pembayaran",
+        "Cabang Kami",
+        "Cara Booking Hotel",
+        "Privacy Policy",
+        "Amankan Uangmu",
+        "Perkiraan Cuaca",
+        "Cara Melakukan Refund"
+    ],
+    "stories" : [
+        {
+            "name" : "Paris",
+            "content" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+        },
+        {
+            "name" : "London",
+            "content" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+        },
+        {
+            "name" : "Dubai",
+            "content" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS."
+        }
+    ],
+    "footerBlocks" : [
+        {
+            "title" : "Wahana Bermain",
+            "text" : [
+                "Lapangan Golf",
+                "Sepakbola & Futsal",
+                "Kolam Renang",
+                "Gor Plahraga",
+                "Kebun Binatang",
+                "Tempat Belajar Anak"
+            ]
+        },
+        {
+            "title" : "Destinasi Top",
+            "text" : [
+                "Bunaken Beach",
+                "Raja Ampat Papua",
+                "Pantai Kuta Bali",
+                "Candi Borobudur",
+                "Monumen Nasional",
+                "Tamah mini Indonesia Indah"
+            ]
+        },
+        {
+            "title" : "Customer Service",
+            "text" : [
+                "0266-0505-1998",
+                "Info@MRTravel.com"
+            ]
+        }
+    ]
 }
