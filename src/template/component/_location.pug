@@ -1,0 +1,49 @@
+mixin button(text)
+    .location-button
+        span.location-button-style= text
+
+mixin localionInfo(imgSrc, nameHotelFirst, nameHotelLast, rang, price)
+    .hotel#info-place
+        .location-column
+            .location-unit
+                img(src= imgSrc)
+                .location-unit-text
+                    span.hotel-name= nameHotelFirst
+                    span.hotel-name= nameHotelLast
+                    span.hotel-rang= rang
+                    span.hotel-price= price
+        .location-column
+            .location-unit
+                img(src= imgSrc)
+                .location-unit-text
+                    span.hotel-name= nameHotelFirst
+                    span.hotel-name= nameHotelLast
+                    span.hotel-rang= rang
+                    span.hotel-price= price
+
+
+
+.location#location
+    .location-title= locationTitle
+    
+    .location-text
+        span.location-text-style= locationTextOne
+        span.location-text-style= locationTextTwo
+
+    .location-buttons
+        -
+            locationButtonsName.forEach(function(item) {
+        +button(item)
+        -})
+
+    .location-holder
+        -
+            hotels.forEach(function(item) {
+        +localionInfo(item.imageSrc, item.nameFirst, item.nameLast, item.rang, item.price)
+        -})
+
+    .destination-button.only-button.location-onlybutton-style
+        a(href= menu[0].href)
+            span Need more places
+        
+

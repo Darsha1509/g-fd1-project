@@ -1,0 +1,25 @@
+.information
+    .info-block#about
+        .block-title FAQ
+        .block-text
+            -
+                faq.forEach(function(item) {
+            span.block-text-style= item
+            -})
+
+    .info-block
+        .block-title Newsletter
+        .block-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis id libero ut finibus.
+        .block-email
+            form
+                input.block-email-style(type="email" placeholder="Enter your email")
+
+    .info-block#news
+        .block-title Interesting fact
+        .block-text Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mattis id libero ut finibus. Nullam et tertor aliquam quam dignissim ullamcorper. Fursce hendrerit urna diam.
+        
+        .block-text.block-events
+            a(href="#") - What's Happening?
+            a(href="#") - Check Event calendar
+
+

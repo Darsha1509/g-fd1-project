@@ -1,0 +1,110 @@
+.location
+    height: 500px
+    margin-top: 140px
+    position: relative
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    &-title
+        font-family: ProximaNova
+        font-size: 30px
+        text-align: center
+
+    &-text
+        height: 65px
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        align-items: center
+        margin-top: 30px
+
+        &-style
+            font-family: ProximaNova
+            font-size: 18px
+            color: #999999
+
+    &-buttons
+        margin-top: 40px
+        height: 85px
+        display: flex
+        justify-content: center
+
+    &-button
+        height: 100%
+        width: 200px
+        margin-right: 20px
+        border-radius: 45px
+        display: flex
+        justify-content: center
+        align-items: center
+
+        &:hover
+            -webkit-box-shadow: 3px 3px 0px 0px rgba(247, 111, 141, 0.8)
+            -moz-box-shadow: 3px 3px 0px 0px rgba(247, 111, 141, 0.8)
+            box-shadow: 2px 2px 4px 2px rgba(247, 111, 141, 0.8)
+            cursor: pointer
+
+            .location-button-style
+                color: #f76f8d;
+
+        &:active
+            -webkit-box-shadow: 3px 3px 0px 0px rgba(247, 111, 141, 0.8)
+            -moz-box-shadow: 3px 3px 0px 0px rgba(247, 111, 141, 0.8)
+            box-shadow: 1px 1px 2px 1px rgba(247, 111, 141, 0.8)
+
+        &-style
+            font-family: ProximaNova
+            font-size: 15px
+            color: #999999
+
+        &__opened
+            color: #f76f8d;
+
+    &-holder
+        margin-top: 50px
+        height: 625px
+        width: 1120px
+        margin-left: 160px
+        margin-right: 160px
+        display: flex
+        justify-content: flex-start
+        overflow: hidden
+        transition: .2s
+
+    &-column
+        margin-right: 100px
+
+    &-unit
+        display: flex
+        margin-bottom: 20px
+
+        &-text
+            width: 220px
+            margin-left: 20px
+            display: flex
+            flex-direction: column
+
+#info-place
+    display: flex
+
+.hotel-name
+    font-family: ProximaNova
+    font-size: 17px
+    color: #626161
+
+.hotel-rang
+    margin-top: 20px
+    font-family: ProximaNova
+    font-size: 15px
+    color: #817b7c
+
+.hotel-price
+    margin-top: 45px
+    font-family: ProximaNova
+    font-size: 17px
+    color: #f76f8d
+    font-style: italic
+
+.location-onlybutton-style
+    background-color: #f76f8d

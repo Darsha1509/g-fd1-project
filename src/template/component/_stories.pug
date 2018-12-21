@@ -1,0 +1,11 @@
+mixin item(header, content)
+    .item
+        .item-header= header
+        .item-content= content
+
+.stories#story
+    .stories-container
+        -
+            stories.forEach(function(item) {
+        +item(item.name, item.content)
+        -});

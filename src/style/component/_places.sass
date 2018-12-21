@@ -1,0 +1,67 @@
+.places
+    margin-top: 75px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    &-content
+        width: 1084px
+
+    &-row
+        display: flex
+        justify-content: space-around
+
+.image-place
+    width: 330px
+    height: 330px
+    overflow: hidden
+    margin-bottom: 20px
+
+    &-big
+        width: 691px
+        height: 330px
+        overflow: hidden
+        margin-bottom: 20px   
+
+        img
+            transition-duration: 2000ms
+
+            &:hover
+                transform: scale(1.1)        
+    
+    img
+        transition-duration: 2000ms
+
+        &:hover
+            transform: scale(1.1) 
+
+.only-button
+    height: 50px
+    width: 250px
+    border-radius: 45px
+    position: absolute
+    bottom: -25px
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+
+    &:hover
+        background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+        background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+        background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+        background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+        background-image: linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4))
+
+    &:active
+        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+        background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+        background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+        background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+        background-image: linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+
+    a 
+        text-decoration: none
+        color: #ffffff

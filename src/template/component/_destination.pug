@@ -1,0 +1,38 @@
+mixin cityVariant(title)
+    .destination-variants-item
+        span= title
+
+
+.destination-title
+    span Set the agenda
+
+.params-container
+    
+    .destination-form
+        span.place.destination-style= destinationsHint[0]
+        img.icon-style(src="/assets/images/location-icon.png")
+        .destination-variants
+            -
+                cities.forEach(function(item) {
+            +cityVariant(item)
+            -});
+
+    div.destination-param
+        input.datepicker-here.destination-param(type="text" placeholder= destinationsHint[1])
+        img.icon-style(src="/assets/images/date-icon.png")
+
+    div.destination-param
+        input.datepicker-here.destination-param(type="text" placeholder= destinationsHint[2])
+        img.icon-style(src="/assets/images/date-icon.png")
+
+    .destination-param.destination-place-guests
+        span.guests.destination-style= destinationsHint[3]
+        img.icon-style(src="/assets/images/guests-icon.png")
+        .destination-guest-variants
+            -
+                for(var i = 1; i < 21; i++){
+            .destination-guest-variants-item= i
+            -}
+
+    .destination-button
+        span Check avaliability

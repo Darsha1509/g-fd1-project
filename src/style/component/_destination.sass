@@ -1,0 +1,149 @@
+.destination-wrapper
+    background-color: #fdf8f9
+    height: 1355px
+    position: relative
+
+.destination-container
+    margin-left: 160px
+    margin-right: 160px
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.destination-title
+    height: 70px
+    display: flex
+    justify-content: center
+    align-items: flex-end
+    font-family: ProximaNova
+    text-transform: uppercase
+    font-size: 18px
+    color: #626161
+    font-weight: bold
+
+.params-container
+    width: 1084px
+    height: 50px
+    margin-top: 45px
+    display: flex
+    justify-content: space-between
+
+.destination-form
+    height: 100%
+    background-color: #ffffff
+    color: #999999
+    display: flex
+    align-items: center
+    width: 270px
+    border: none
+    padding-left: 18px
+    font-size: 15px
+    position: relative
+
+.destination-style
+    font-family: ProximaNova
+    font-size: 15px
+    margin-left: 18px
+
+.icon-style
+    position: absolute
+    right: 10px
+
+.destination-variants, .destination-guest-variants
+    display: none
+
+    &__opened
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        background-color: #ffffff
+        width: 287px
+        height: 250px
+        z-index: 1
+        position: absolute
+        top: 50px
+        left: 0
+        font-family: ProximaNova
+        overflow: hidden
+        overflow-y: scroll
+
+    &-item 
+        padding: 7px 0 7px 36px
+
+        &:hover
+            color: #ffffff
+            background-color: #999999
+
+.destination-param
+    height: 100%
+    background-color: #ffffff
+    color: #999999
+    display: flex
+    align-items: center
+    width: 145px
+    position: relative
+    border: none
+    padding-left: 18px
+    font-size: 15p
+    outline: none;
+
+\::-webkit-input-placeholder
+    font-size: 15px
+
+.destination-place-guests
+    position: relative
+
+.destination-guest-variants
+    display: none
+
+    &__opened
+        display: flex
+        flex-direction: column
+        justify-content: flex-start
+        background-color: #ffffff
+        width: 164px
+        height: 250px
+        z-index: 1
+        position: absolute
+        top: 50px
+        left: 0
+        font-family: ProximaNova
+        overflow: hidden
+        overflow-y: scroll
+
+    &-item 
+        padding: 7px 0 7px 36px
+
+        &:hover
+            color: #ffffff
+            background-color: #999999  
+
+.destination-button
+    width: 200px
+    background-color: #f76f8d
+    color: #ffffff
+    text-transform: uppercase
+    font-family: ProximaNova
+    font-size: 14px
+    display: flex
+    justify-content: center
+    align-items: center
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+    background-image: linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2))
+
+    &:hover
+        background-image: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+        background-image: -moz-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+        background-image: -o-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+        background-image: -ms-linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+        background-image: linear-gradient(bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.4));
+
+    &:active
+        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+        background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+        background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+        background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));
+        background-image: linear-gradient(top, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.2));

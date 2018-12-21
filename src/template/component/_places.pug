@@ -1,0 +1,26 @@
+mixin addImage(source)
+    .image-place
+        img(src= source width="400px" height="400px")
+
+mixin addBigImage(source)
+    .image-place-big
+        img(src= source width="800px" height="400px")
+
+.places#places
+    .places-content
+        .places-row
+            +addImage("/assets/images/burj_khalifa_tower_dubai.png")
+            +addImage("/assets/images/htdet.png")
+            +addImage("/assets/images/ewxcrvt.png")
+
+        .places-row
+            +addBigImage("/assets/images/beauty_of_venice.png")
+            +addImage("/assets/images/manarola_italy.png")
+
+        .places-row
+            +addImage("/assets/images/amazing_eiffel_tower_paris.png")
+            +addBigImage("/assets/images/photo-1461703220177.png")
+
+    .destination-button.only-button
+        a(href= menu[2].href)
+            span See all directions
