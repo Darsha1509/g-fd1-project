@@ -1,0 +1,9 @@
+mixin menuItem(address, title)
+    .menu-container
+        span.menu-item(href= address)= title
+
+.menu
+    -
+        for(var i = 0; i < menu.length; i++){
+    +menuItem(menu[i].href, menu[i].title)
+    -}

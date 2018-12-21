@@ -1,0 +1,29 @@
+extends ./_template.pug
+
+block body
+    include ./component/_up-button.pug
+
+    block top
+        .top
+            include ./component/_header.pug
+            include ./component/_main-text.pug
+            include ./component/_search.pug
+
+        .content
+            .destination-wrapper#destination
+                .destination-container
+                    include ./component/_destination.pug
+                    include ./component/_places.pug
+            include ./component/_location.pug
+            include ./component/_information.pug
+            include ./component/_stories.pug
+
+        .footer
+            .footer-content
+                include ./component/_footer-top.pug
+                include ./component/_footer-bottom.pug
+
+
+
+
+                    
