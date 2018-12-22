@@ -11,5 +11,5 @@ var btn = document.querySelector('.up-button');
 btn.onclick = function () {
     $('html').animate({
                 scrollTop: 0
-            }, 700);
+    }, 700);
 };
